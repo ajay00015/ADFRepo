@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "TESTDF0015"
+		},
+		"LS_ADLSGen2connection_accountKey": {
+			"value": ""
+		},
+		"LS_BLOBCONNECTION_connectionString": {
+			"value": ""
+		},
+		"ls_AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
+		"LS_ADLSGen2connection_properties_typeProperties_url": {
+			"value": "https://azuredatalakegen2test001.dfs.core.windows.net"
+		},
+		"LS_HTTPConnection_properties_typeProperties_url": {
+			"value": "@{linkedService().baseURL}"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
